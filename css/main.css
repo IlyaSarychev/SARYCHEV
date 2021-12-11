@@ -383,7 +383,12 @@ select {
 	}
 
 	.section-offer {
-		align-items: end;
+		min-height: 560px;
+		align-items: center;
+	}
+
+	.section-offer .wrapper {
+		padding-top: 65px;
 	}
 
 	.section-offer .content {
@@ -419,5 +424,9 @@ select {
 	.egg-title {
 		font-size: 16px;
 		margin-bottom: 10px;
+	}
+
+	input[type="date"], input[type="time"] {
+		min-width: 100%;
 	}
 }
